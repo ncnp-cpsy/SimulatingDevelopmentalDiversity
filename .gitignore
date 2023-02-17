@@ -10,10 +10,9 @@ search_december.py*
 __pycache__
 
 # directory
-rslt/*
-notebook/*
 tmp/
 other_tool/
-log/
 .ipynb_checkpoints/
-
+rslt/*
+notebook/*
+log/*

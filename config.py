@@ -5,8 +5,8 @@ class ConfigSoftmax():
     model_class = ModelPVRNNSoftmax
     data_dir_common = 'data/wcst/stoch_limited-sm_bias-switch_always_reversal/'
     data_size = 4
-    epoch_size = 500
-    run_name = 'sample/001'
+    epoch_size = 20000
+    run_name = 'sample/002'
 
     params = {
         # model name.
@@ -56,9 +56,8 @@ class ConfigSoftmax():
         'test_data_size': 4,
         'ereg_lr': 0.1,
         'ereg_window_size': 15,
-        'ereg_iteration': 2,
+        'ereg_iteration': 10,
         'ereg_pred_step': 1,
         'ereg_meta_prior': [0.000001, 0.000001],
-        'traversal_values': 21
-
+        'traversal_values': 21,
     }
