@@ -12,19 +12,8 @@ __pycache__
 # directory
 rslt/*
 notebook/*
-analysis/
-data/*
-auto_copy_and_check/
-old/
 tmp/
 other_tool/
-memo/
-model/old/
 log/
-auto_cor
 .ipynb_checkpoints/
 
-# whitelist
-!analysis/visualizer.py
-!analysis/util.py
-!analysis/analyze_tutorial.py
