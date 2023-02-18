@@ -53,20 +53,25 @@ def analyze_tutorial(
             title='learning for data' + str(i),
             suffix='_post_data',
             header=('RNN x', 'RNN y', 'target x', 'target y'),
-            seq=i, save=True)
+            seq=i,
+            save=True)
 
     # target reconstruction
     out = filepath + "target_generation/xValueInversed"
     vis.plot_comparing_sequences(
-        output=out, target=train_tar_path,
+        output=out,
+        target=train_tar_path,
         header=('RNN x', 'RNN y', 'target x', 'target y'),
         num_seq=num_seq_tar,
-        title='target_generation', save=True)
+        title='target_generation',
+        save=True)
     vis.plot_plane_comparing(
         output=out,
         target=train_tar_path,
-        num_seq=num_seq_tar, lim=1,
-        title='target_generation', save=True)
+        num_seq=num_seq_tar,
+        lim=1,
+        title='target_generation',
+        save=True)
 
     for i in range(num_seq_tar):
         vis.plot_neural_activity_and_true(
@@ -125,7 +130,9 @@ def analyze_tutorial(
             title='Error Regression for data' + str(i),
             suffix='_ereg_test_',
             header=('RNN x', 'RNN y', 'target x', 'target y'),
-            seq=i, read_suffix='_1step_pred_train', save=True
+            seq=i,
+            read_suffix='_1step_pred_train',
+            save=True
         )
 
     # error regression for test data
@@ -169,7 +176,7 @@ def test():
     test_true_path = 'data/wcst/200914/stoch_sm-switch_bias-switch_small/data_true/test_true'
 
     out_dir='../img/'
-    out_dir = args[2]
+    # out_dir = args[2]
 
     # epoch=20000
     epoch = int(args[3])
@@ -193,6 +200,7 @@ def test():
         skiprows=skiprows,
         max_rows=max_rows)
     return
+
 
 if __name__ == '__main__':
     test()

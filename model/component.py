@@ -87,6 +87,7 @@ class InferenceModelNoHidden(nn.Module):
         params = [mu_inference, sigma_inference]
         return params
 
+
 class PriorModel(nn.Module):
     def __init__(self, h_dim, z_dim):
         super(PriorModel, self).__init__()
@@ -113,9 +114,10 @@ class PriorModel(nn.Module):
     def forward(self, hidden):
         mu_prior = self.mean_activation(self.mean_layer(hidden))
         sigma_prior = torch.exp(self.std_layer(hidden))
-            
+
         params = [mu_prior, sigma_prior]
         return params
+
 
 class GenerationModelTanh(nn.Module):
     def __init__(self, input_size, x_dim):
@@ -128,6 +130,7 @@ class GenerationModelTanh(nn.Module):
         x = self.activation(self.layer(lowest_hidden))
         return x
 
+
 class GenerationModelGauss(nn.Module):
     def __init__(self, input_size, x_dim):
         super().__init__()
@@ -136,7 +139,7 @@ class GenerationModelGauss(nn.Module):
         self.mean_layer = nn.Linear(input_size, x_dim)
         self.variance_layer = nn.Linear(input_size, x_dim)
         self.mean_activation = nn.Tanh()
-    
+
     def forward(self, lowest_hidden):
         # notice sigma = sqrt of variance
         mean = self.mean_activation(self.mean_layer(lowest_hidden))
@@ -147,6 +150,7 @@ class GenerationModelGauss(nn.Module):
 
         return mean, variance, noise, out_with_noise
 
+
 class GenerationModelSoftmax(nn.Module):
     def __init__(self, input_size, x_dim, real_x_dim):
         ''' This generation model is used in Reza-san's source code.
@@ -156,10 +160,10 @@ class GenerationModelSoftmax(nn.Module):
         self.x_dim = x_dim
         self.real_x_dim = real_x_dim
         self.sparse_dim = int(self.x_dim / self.real_x_dim)
-        
+
         self.layer = nn.Linear(input_size, x_dim)
         self.activation = nn.Softmax(dim=1)
-    
+
     def forward(self, lowest_hidden):
         x = self.layer(lowest_hidden)
         for i in range(self.real_x_dim):

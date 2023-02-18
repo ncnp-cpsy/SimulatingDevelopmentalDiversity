@@ -242,17 +242,15 @@ class PVRNNSoftmaxLoss(PVRNNLoss):
         if type(target) is torch.Tensor:
             if mode == 'grad':
                 # factor = target.size(2)
-                factor = self.real_x_dim # in reza-san's code using real_x_dim
+                factor = self.real_x_dim  # in reza-san's code using real_x_dim
             elif mode == 'save':
                 factor = target[target != self.padding_token].numel()
             elif mode == 'save_reza':
                 # factor = target.size(0) * target.size(2)
-                factor = target.size(0) * self.real_x_dim # in reza-san's code using real_x_dim
+                factor = target.size(0) * self.real_x_dim  # in reza-san's code using real_x_dim
             if factor != 0: loss = loss / factor
         return loss
 
     def _calc_nll_loss(self, output, target):
         nll_loss = tool.nll_softmax(output, target)
         return nll_loss
-
-

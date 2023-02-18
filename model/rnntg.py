@@ -7,6 +7,7 @@ import torch
 import torch.nn as nn
 torch.set_printoptions(threshold=10000)
 
+
 class RNNTG(nn.Module):
     def __init__(self):
         super(RNNTG, self).__init__()
