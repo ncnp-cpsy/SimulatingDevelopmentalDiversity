@@ -1,18 +1,11 @@
 # file
-
-# .gitignore
-*~
 *.o[0-9]{5}
 log_*.txt
 tmp*
-search_december.py*
 *yapf*.py
-__pycache__
 
 # directory
-tmp/
-other_tool/
+__pycache__/
 .ipynb_checkpoints/
 rslt/*
-notebook/*
 log/*

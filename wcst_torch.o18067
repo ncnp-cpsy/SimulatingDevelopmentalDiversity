@@ -1,0 +1,18 @@
+working directory:  /home/taka/PVRNNProject/SimulatingDevelopmentalDiversity
+omp thread num:  1
+ncpus:  1
+cuda visible devices: 
+2023/02/18 AM 03:00:55
+Traceback (most recent call last):
+  File "main.py", line 9, in <module>
+    from config import ConfigSoftmax as CONFIG
+  File "/new_nas/taka/PVRNNProject/SimulatingDevelopmentalDiversity/config.py", line 1, in <module>
+    from model.united_model import ModelPVRNNSoftmax
+  File "/new_nas/taka/PVRNNProject/SimulatingDevelopmentalDiversity/model/united_model.py", line 30
+    class Model(metaclass=ABCMeta):
+                         ^
+SyntaxError: invalid syntax
+2023/02/18 AM 03:00:55
+start time:  1676689255
+end time:  1676689255
+run time:  0

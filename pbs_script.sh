@@ -1,6 +1,6 @@
 #!/bin/bash
 #PBS -l select=1:ncpus=1:mem=7G
-#PBS -N wcst_torch
+#PBS -N flexibility_simulation
 #PBS -j oe
 
 echo "working directory: " $PBS_O_WORKDIR
