@@ -5,8 +5,8 @@ class ConfigSoftmax():
     model_class = ModelPVRNNSoftmax
     data_dir_common = 'data/wcst/limited_sm/'
     data_size = 18
-    epoch_size = 200000
-    run_name = 'sample/003'
+    epoch_size = 10000  # 200000
+    run_name = 'sample/short-epoch'
 
     params = {
         # Model name.

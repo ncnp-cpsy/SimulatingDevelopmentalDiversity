@@ -1,0 +1,1059 @@
+working directory:  /home/taka/PVRNNProject/SimulatingDevelopmentalDiversity
+omp thread num:  1
+ncpus:  1
+cuda visible devices: 
+2023/02/24 AM 01:02:27
+mkdir: invalid option -- '.'
+Try 'mkdir --help' for more information.
+mkdir: cannot create directory ‘./rslt/sample/003/100000/learning/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/003/100000/target_generation/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/003/100000/posterior_generation/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/003/100000/free_generation/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/003/100000/error_regression/’: File exists
+##################### 
+### start time:  2023/02/24 01:02:30 
+### model class:  ModelPVRNNSoftmax 
+### out dir:  ./rslt/sample/003/
+### model path:  ./rslt/sample/003/saves/model_state_dict_100000.pth
+mkdir ./rslt/sample/003/100000/learning/
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLossmkdir: invalid option -- '.'
+Try 'mkdir --help' for more information.
+mkdir: cannot create directory ‘./rslt/sample/003/200000/learning/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/003/200000/target_generation/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/003/200000/posterior_generation/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/003/200000/free_generation/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/003/200000/error_regression/’: File exists
+ 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+### model path:  ./rslt/sample/003/saves/model_state_dict_200000.pth
+mkdir ./rslt/sample/003/200000/learning/
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior: mkdir: cannot create directory ‘./rslt/sample/003/100000/img’: File exists
+ tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+### finish time (test):  2023/02/24 05:26:53 
+### running time: (test) 264m 22s
+target file: ./rslt/sample/003/100000/ 
+out_dir: ./rslt/sample/003/100000/img/ 
+epoch: 100000 
+train data:  data/wcst/limited_sm/data/data 
+test data:  data/wcst/limited_sm/data/test 
+train true data:  data/wcst/limited_sm/data_true/data_true 
+test true data:  data/wcst/limited_sm/data_true/test_true
+target file: ./rslt/sample/003/200000/ 
+out_dir: ./rslt/sample/003/200000/img/ 
+epoch: 200000 
+train data:  data/wcst/limited_sm/data/data 
+test data:  data/wcst/limited_sm/data/test 
+train true data:  data/wcst/limited_sm/data_true/data_true 
+test true data:  data/wcst/limited_sm/data_true/test_true
+### finish time (one condition):  2023/02/24 05:40:14 
+### running time: (one condition) 277m 44s
+all_done
+2023/02/24 AM 05:40:14
+start time:  1677200547
+end time:  1677217214
+run time:  16667

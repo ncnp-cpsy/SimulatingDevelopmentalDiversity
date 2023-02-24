@@ -15,7 +15,7 @@ def main():
     run_one_condition(
         model_class=CONFIG.model_class,
         params=CONFIG.params,
-        test_only=False  # change it if do test only.
+        test_only=True  # change it if do test only.
     )
     print('all_done')
     return
@@ -95,8 +95,8 @@ def plot_rslt(model, params):
             test_tar_path=params['test_data_path'],
             train_true_path=params['train_true_path'],
             test_true_path=params['test_true_path'],
-            num_seq_tar=params['test_gen_size'],
-            num_seq_ereg=params['test_data_size']
+            num_seq_tar=params['test_data_size_tar'],
+            num_seq_ereg=params['test_data_size_ereg_test']
         )
 
     return

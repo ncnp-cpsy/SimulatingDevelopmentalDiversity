@@ -1,0 +1,1193 @@
+working directory:  /home/taka/PVRNNProject/SimulatingDevelopmentalDiversity
+omp thread num:  1
+ncpus:  1
+cuda visible devices: 
+2023/02/21 PM 02:18:16
+mkdir: created directory './rslt/sample/short-epoch/'
+mkdir: invalid option -- '.'
+Try 'mkdir --help' for more information.
+mkdir: invalid option -- '.'
+Try 'mkdir --help' for more information.
+mkdir: invalid option -- '.'
+Try 'mkdir --help' for more information.
+mkdir: cannot create directory ‘./rslt/sample/short-epoch/5000/learning/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/short-epoch/5000/target_generation/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/short-epoch/5000/posterior_generation/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/short-epoch/5000/free_generation/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/short-epoch/5000/error_regression/’: File exists
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix0/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix1/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix2/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix3/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix4/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix5/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix6/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix7/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix8/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix9/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix10/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix11/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix12/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix13/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix14/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix15/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix16/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix17/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix18/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix19/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_prior_fix20/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix0/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix1/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix2/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix3/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix4/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix5/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix6/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix7/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix8/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix9/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix10/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix11/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix12/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix13/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix14/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix15/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix16/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix17/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix18/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix19/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_sigma_prior_fix20/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix0/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix1/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix2/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix3/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix4/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix5/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix6/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix7/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix8/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix9/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix10/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix11/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix12/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix13/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix14/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix15/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix16/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix17/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix18/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix19/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/constant_z_only_initial_prior_fix20/'
+mkdir: created directory './rslt/sample/short-epoch/5000/latent_space_traversal/traversal_z_prior_fix0/'
+mkdir: cannot create directory ‘./rslt/sample/short-epoch/data_preprocessed/’: File exists
+##################### 
+### start time:  2023/02/21 14:18:18 
+### model class:  ModelPVRNNSoftmax 
+### out dir:  ./rslt/sample/short-epoch/
+mkdir ./rslt/sample/short-epoch/5000/learning/
+mkdir ./rslt/sample/short-epoch/10000/learning/
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([1., 1., 1.]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+mkdir ./rslt/sample/short-epoch/5000/learning/
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  mkdir: invalid option -- '.'
+Try 'mkdir --help' for more information.
+mkdir: cannot create directory ‘./rslt/sample/short-epoch/10000/learning/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/short-epoch/10000/target_generation/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/short-epoch/10000/posterior_generation/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/short-epoch/10000/free_generation/’: File exists
+mkdir: cannot create directory ‘./rslt/sample/short-epoch/10000/error_regression/’: File exists
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix0/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix1/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix2/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix3/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix4/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix5/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix6/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix7/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix8/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix9/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix10/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix11/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix12/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix13/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix14/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix15/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix16/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix17/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix18/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix19/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_prior_fix20/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix0/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix1/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix2/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix3/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix4/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix5/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix6/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix7/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix8/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix9/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix10/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix11/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix12/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix13/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix14/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix15/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix16/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix17/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix18/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix19/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_sigma_prior_fix20/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix0/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix1/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix2/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix3/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix4/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix5/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix6/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix7/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix8/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix9/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix10/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix11/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix12/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix13/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix14/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix15/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix16/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix17/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix18/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix19/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/constant_z_only_initial_prior_fix20/'
+mkdir: created directory './rslt/sample/short-epoch/10000/latent_space_traversal/traversal_z_prior_fix0/'
+PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+mkdir ./rslt/sample/short-epoch/10000/learning/
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+PVRNNLoss Is Initialized.  
+criterion:  PVRNNSoftmaxLoss 
+model:  PVRNNSoftmax 
+initial regularizer:  True 
+meta_prior:  tensor([0.0010, 0.0100, 0.1000]) 
+init_meta_prior:  tensor([0.0100, 0.0100, 0.0100])
+Regressor Is Initialized.  
+model:  PVRNNSoftmax 
+criterion:  PVRNNSoftmaxLoss 
+lr:  0.09 
+betas:  (0.5, 0.999) 
+ws:  15 
+itrtn:  20 
+pred:  1
+### finish time (train and test):  2023/02/21 22:08:05 
+### running time: (train and test) 469m 46s
+Traceback (most recent call last):
+  File "main.py", line 106, in <module>
+    main()
+  File "main.py", line 18, in main
+    test_only=True  # change it if do test only.
+  File "main.py", line 67, in run_one_condition
+    plot_rslt(model=model, params=params)
+  File "main.py", line 98, in plot_rslt
+    num_seq_tar=params['test_data_size_gen'],
+KeyError: 'test_data_size_gen'
+2023/02/21 PM 10:08:06
+start time:  1676989096
+end time:  1677017286
+run time:  28190
