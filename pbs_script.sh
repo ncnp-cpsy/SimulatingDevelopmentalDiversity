@@ -12,7 +12,7 @@ date +"%Y/%m/%d %p %I:%M:%S"
 start_time=`date +%s`
 cd $PBS_O_WORKDIR
 
-python main.py
+/home/taka/.pyenv/shims/python main.py
 
 date +"%Y/%m/%d %p %I:%M:%S"
 end_time=`date +%s`

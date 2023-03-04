@@ -3,6 +3,7 @@
 log_*.txt
 tmp*
 *yapf*.py
+pbs_script.sh     
 
 # directory
 __pycache__/

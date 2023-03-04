@@ -7,16 +7,9 @@ The simulation experiments of flexibility task using PV-RNN model.
 ```
 python main.py
 ```
-
-If you use job scheduler, such as PBS, use below:
-
-```
-qsub ./pbs_script.sh
-```
-
 ## Hyper parameter setting
 
-You can change learning and test conditions  by editting `config.py`. 
+You can change learning and test conditions by editing `config.py`. 
 
 Don't forget to change the output directory. The setting of output directry is in `out_dir_name` in `config.py`.
 
