@@ -15,7 +15,7 @@ def main():
     run_one_condition(
         model_class=CONFIG.model_class,
         params=CONFIG.params,
-        test_only=True  # change it if do test only.
+        test_only=False  # change it if do test only.
     )
     print('all_done')
     return
